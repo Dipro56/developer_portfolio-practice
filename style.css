@@ -23,6 +23,7 @@ h1 {
   background-image: url('images/dream-bg.png');
   background-repeat: no-repeat;
   background-position: right;
+  margin-bottom: 150px;
 }
 
 .half-width {
@@ -41,4 +42,40 @@ h1 {
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+
+.flexible-div {
+  display: flex;
+}
+
+.box-shadow {
+  box-shadow: 10px 10px 40px grey;
+  width: 40%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  margin-bottom: 300px;
+}
+
+.border-class1 {
+  border-left: 10px solid;
+  border-image: linear-gradient(salmon, red);
+  border-image-slice: 1;
+}
+
+.border-class2 {
+  border-left: 10px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+footer {
+  text-align: center;
 }
